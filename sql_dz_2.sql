@@ -40,4 +40,29 @@
 --SELECT * FROM products WHERE id = 5;
 --SELECT * FROM products;
 
+--SELECT COUNT(*) AS total_products FROM products;
+--SELECT * FROM products;
+
+--SELECT COUNT(*) AS products_with_discount FROM products WHERE discount_percent > 0;
+--SELECT * FROM products;
+
+--SELECT SUM(price) AS total_price FROM products;
+--SELECT * FROM products;
+
+--SELECT AVG(price) AS average_price FROM products;
+--SELECT * FROM products;
+
+--SELECT MAX(price) AS max_price FROM products;
+--SELECT * FROM products;
+
+--SELECT * FROM products WHERE price = (SELECT MAX(price) FROM products);
+--SELECT * FROM products;
+
+--SELECT ROUND(AVG(price), 1) AS rounded_avg_price FROM products;
+--SELECT * FROM products;
+
+--SELECT * FROM products WHERE quantity = (SELECT MAX(quantity) FROM products);
+--SELECT * FROM products;
+
+
 --SELECT * FROM products;
